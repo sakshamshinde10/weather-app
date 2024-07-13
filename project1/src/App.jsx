@@ -59,7 +59,7 @@ const App = () => {
       {/* Weather Details Card */}
       {submitted ? (
         weatherData && (
-          <div className="p-4" style={{backgroundColor:'lightgreen'}}>
+          <div className="p-4" style={{backgroundColor:'grey'}}>
             <div className="text-gray-800 font-bold text-xl mb-2">Weather Details</div> 
 
             <div className="border border-gray-300 p-4 rounded-lg bg-white">
